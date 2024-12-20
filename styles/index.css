@@ -1,0 +1,127 @@
+p, div, section, nav, img, body, h1, h2, h3, h4, h5, h6, a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    background-color: #eeeeee;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav__a{
+    color: black;
+    font-size: 18px;
+    &:hover {
+        color: #9b9b9b;
+    }
+}
+section{
+    margin: 30px 0;
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 15px;
+}
+.company-info__text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.company-info__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reviews-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.reviews-block__title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.review {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: fit-content;
+}
+.searching {
+    padding: 0 15px;
+}
+.srch-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.srch-form__title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.srch-form__elem {
+    display: flex;
+    column-gap: 20px;
+}
+.srch-form__button {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.discount {
+    padding: 0 15px;
+}
+
+.dsc-sub {
+    padding: 0 15px;
+}
+.dsc-sub__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dsc-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.dsc-form__elem{
+    display: flex;
+    column-gap: 10px;
+}
+.dsc-form__btn {
+    width: fit-content;
+}
+.footer {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    min-height: 150px;
+}
+.footer-text {
+    font-size: 16px;
+}
+.footer-nav__a {
+    color: #000000;
+    &:hover {
+        color: #9b9b9b;
+    }
+}

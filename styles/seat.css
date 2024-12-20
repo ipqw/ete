@@ -1,0 +1,19 @@
+.taken {
+    background-color: red;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px 75px 75px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.seat {
+    width: 75px;
+    cursor: pointer;
+    height: 75px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.green {
+    background-color: green;
+}

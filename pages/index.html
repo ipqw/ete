@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./public/images/logo.svg" alt="logo">
+        <nav class="nav">
+            <a href="#discounts" class="nav__a">Акции</a>
+            <a href="#searching" class="nav__a">Поиск</a>
+            <a href="#" class="nav__a">Управление бронированием</a>
+        </nav>
+    </header>
+    <section class="booking">
+        <ul>
+            <li>Найдите подходящие мероприятия</li>
+            <li>Выберите место</li>
+            <li>Приобретите билет</li>
+            <li>Готово!</li>
+        </ul>
+    </section>
+    <section class="company-info">
+        <p class="company-info__title">«Праздник в каждый дом»</p>
+        <p class="company-info__text">Главная цель компании - сделать праздничные дни незабываемыми для детей и их родителей.</p>
+        <p class="company-info__text">Девиз компании «Праздник в каждый дом» - Подарим волшебство для Ваших детей!</p>
+        <div class="reviews-block">
+            <p class="reviews-block__title">Отзывы клиентов:</p>
+            <div class="review">
+                <p class="review__author">Владимир</p>
+                <p class="review__text">Aute ex laboris proident fugiat Lorem labore ea id incididunt magna amet proident ipsum.</p>
+            </div>
+            <div class="review">
+                <p class="review__author">Александр</p>
+                <p class="review__text">Aute ex laboris proident fugiat Lorem labore ea id incididunt magna amet proident ipsum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="searching" class="searching">
+        <form class="srch-form">
+            <p class="srch-form__title">Поиск мероприятий</p>
+            <div class="srch-form__elem">
+                <p class="srch-form-elem__text">Регион:</p>
+                <input type="text">
+            </div>
+            <div class="srch-form__elem">
+                <p class="srch-form-elem__text">Дата мероприятия:</p>
+                <input type="date"> 
+            </div>
+            <div class="srch-form__elem">
+                <p class="srch-form__text">Количество детей и взрослых</p>
+                <input type="number" max="50">
+            </div>
+            <a class="srch-form__button" href="./search.html">Поиск</a>
+        </form>
+    </section>
+    <section id="discounts" class="discounts">
+        <div class="discount">
+
+        </div>
+    </section>
+    <section class="dsc-sub">
+        <p class="dsc-sub__title">Подписаться на закрытые акции:</p>
+        <form class="dsc-form">
+            <div class="dsc-form__elem">
+                <p class="dsc-form__text">Ваш Email:</p>
+                <input type="text">
+            </div>
+            <button class="dsc-form__btn">Подписаться</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Телефон “8 (800) 111-20-20”</p>
+        <nav class="footer-nav">
+            <a class="footer-nav__a" href="/return">Возврат</a>
+            <a class="footer-nav__a" href="/feedback">Обратная связь</a>
+        </nav>
+    </footer>
+</body>
+</html>
